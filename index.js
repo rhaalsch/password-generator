@@ -103,8 +103,8 @@ function generatePassword() {
   }
 
   if (firstSet.length < 16 && secondSet.length < 16) {
-    firstPassword.textContent = firstSet;
-    secondPassword.textContent = secondSet;
+    firstPassword.innerHTML = firstSet;
+    secondPassword.innerHTML = secondSet;
   }
 }
 
